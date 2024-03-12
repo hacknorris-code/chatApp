@@ -1,0 +1,58 @@
+*{
+background-color: lightgrey;
+color:darkblue;
+border-collapse: separate;
+}
+
+div#logger{
+display:block;
+border: 2px solid cyan;
+}
+div#logger>*{
+float:left;
+width:50%;
+display:inline;
+}
+div#logger>*>*>*{
+display:block;
+}
+nav, nav>*, nav>*>*{
+background-color: darkblue;
+color: lightgray;
+}
+
+.post>*{
+float:left;
+}
+.post, .mpost, .muser{
+display:block;
+border:3px double blue;
+}
+#users, #msg{
+float:left;
+width:49.5%;
+border:3px double blue;
+}
+#msg{
+float:right;
+}
+.id{
+display:block;
+}
+.nick{
+width:10%;
+color:darkred;
+font-weight:bold;
+font-variant:small-caps;
+}
+.post>.message{
+width:80%;
+}
+.messages{
+display:flex;
+flex-direction:column-reverse;
+}
+input[type="submit"]{
+background-color: cyan;
+border: 3px double darkblue;
+}
